@@ -4,5 +4,11 @@
     <string name="txtTitle">ป้ายจราจร</string>
     <string name="MoreInfo">More Info</string>
     <string name="AboutMe">About Me</string>
+    <string name="name1"> นาย ทศพร ดวงดิษฐ์ </string>
+    <string name="name2"><b>เบอร์โทร : </b>0894446310 </string>
+    <string name="name3"><b>รหัส : </b>5711020660018 </string>
+    <string name="name4"><b>หลักสูตร</b>วิทยาการคอมพิวเตอร์ </string>
+
+    <string name="face">Facebook https://www.facebook.com/thossaporn.dungdit</string>
 
 </resources>
