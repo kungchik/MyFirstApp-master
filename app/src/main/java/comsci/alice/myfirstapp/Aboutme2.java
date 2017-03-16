@@ -7,6 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class Aboutme2 extends AppCompatActivity {
@@ -38,6 +39,17 @@ public class Aboutme2 extends AppCompatActivity {
                 soundID = R.raw.sound1;
                 playSound(soundID);
                 return true;
+            }
+        });
+
+        //Phone onClick
+        TextView PhoneTextView = (TextView) findViewById(R.id.txtTell);
+        PhoneTextView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent phoneIntent = new Intent(Intent.ACTION_DIAL);
+                phoneIntent.setData(Uri.parse("tel:0894446310"));
+                startActivity(phoneIntent);
             }
         });
     }
